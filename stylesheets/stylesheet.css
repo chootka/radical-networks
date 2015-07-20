@@ -102,6 +102,10 @@ header h2 {
   max-width: 100%;
 }
 
+#main_content {
+  color: #fff;
+}
+
 #downloads {
   margin-bottom: 40px;
 }
