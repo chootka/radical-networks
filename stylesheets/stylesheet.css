@@ -73,6 +73,7 @@ header h1 {
   font-size:  28px; font-weight: 300;
   line-height: 1.2;
   color: #fff;
+  text-transform: uppercase;
 }
 
 .light {
