@@ -109,6 +109,16 @@ header h2 {
   max-width: 620px;
 }
 
+#social {
+  position: absolute;
+  right: 50px;
+  top: 30px;
+}
+
+#social a {
+  padding: 0 8px;
+}
+
 #downloads {
   margin-bottom: 40px;
 }
