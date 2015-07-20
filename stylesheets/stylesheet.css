@@ -51,9 +51,9 @@ body {
   font-family: 'Roboto Mono';
   font-size: 1em;
   line-height: 1.5;
-  color: #6d6d6d;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-  background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
+  color: #000;
+  text-shadow: none;
+  /*background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;*/
 }
 
 a {
@@ -70,9 +70,9 @@ header {
 
 header h1 {
   font-family: 'Roboto Mono', 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size:  18px; font-weight: 300;
+  font-size:  28px; font-weight: 300;
   line-height: 1.2;
-  color: #303030;
+  color: #fff;
 }
 
 .light {
@@ -80,21 +80,22 @@ header h1 {
 }
 
 header h2 {
-  font-size: 24px;
-  font-weight: normal;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-size: 20px;
+  font-weight: 400;
   line-height: 1.3;
-  color: #aaa;
-  letter-spacing: -1px;
+  color: #fff;
 }
 
 #container {
   min-height: 595px;
-  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
+  background-color: #000;
 }
 
 .inner {
-  width: 620px;
+  /*width: 620px;*/
   margin: 0 auto;
+  padding: 0 30px;
 }
 
 #container .inner img {
