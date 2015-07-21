@@ -119,6 +119,10 @@ header h2 {
   right: 90px;
 }
 
+.eyebeam img {
+  margin-top: 7px;
+}
+
 #social {
   position: absolute;
   right: 50px;
@@ -309,9 +313,9 @@ blockquote {
 }
 
 ul li {
-  list-style-position: inside;
-  list-style: disc;
-  padding-left: 20px;
+  list-style: none;
+  padding-left: 10px;
+  padding-bottom: 5px;
 }
 
 ol li {
