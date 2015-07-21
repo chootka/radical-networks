@@ -129,8 +129,12 @@ header h2 {
   right: 80px;
 }
 
+.sidebar p {
+  margin-bottom: 0;
+}
+
 .sidebar div {
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 .sidebar img {
