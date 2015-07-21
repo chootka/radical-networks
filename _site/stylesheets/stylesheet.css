@@ -57,10 +57,18 @@ body {
 }
 
 a {
-  color: #d5000d;
+  /*color: #d5000d;*/
+  color: #D2408D;
+  /*color: ##F4BFBF;*/
+  /*color: #04D3C4;*/
 }
 a:hover {
-  color: #c5000c;
+  /*color: #c5000c;*/
+  /*color: #CFF5F3;*/
+  color: #B01C6A;
+}
+a.active {
+  color: #F49CCA;
 }
 
 header {
@@ -114,12 +122,18 @@ header h2 {
   max-width: 620px;
 }
 
-.eyebeam {
+.sidebar {
+  color: #fff;
+  width: 300px;
   position: absolute;
-  right: 90px;
+  right: 80px;
 }
 
-.eyebeam img {
+.sidebar div {
+  padding-top: 10px;
+}
+
+.sidebar img {
   margin-top: 7px;
 }
 
@@ -272,14 +286,15 @@ h2 {
 h3 {
   margin-bottom: 8px;
   font-size: 18px;
-  font-weight: bold;
-  color: #d5000d;
+  /*font-weight: bold;*/
+  /*color: #d5000d;*/
+  color: #4FB4E8;
 }
 
 h4 {
   font-size: 16px;
-  font-weight: bold;
-  color: #303030;
+  /*font-weight: bold;*/
+  color: #ABDEF9;
 }
 
 h5 {
@@ -313,9 +328,9 @@ blockquote {
 }
 
 ul li {
-  list-style: none;
+  background: url("/images/bullet.png") no-repeat left 10px;
   padding-left: 10px;
-  padding-bottom: 5px;
+  /*padding-bottom: 5px;*/
 }
 
 ol li {
@@ -350,8 +365,10 @@ nav {
   right: 160px;
 }
 
-nav li {
+nav ul li {
+  background: none;
   display: inline;
+  list-style: none;
   padding-left: 0;
   padding-right: 20px;
 }

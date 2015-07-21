@@ -16,37 +16,15 @@
   <body>
     <div id="container">
       <div class="inner">
-        <nav>
-          <ul>
-            <!-- <li><a href="/">Index</a></li> -->
-            <li><a href="/about/"{% if page.url contains "/about/" %}class="active"{% endif %}>About</a></li>
-            <!-- <li><a href="/tickets/"{% if page.url contains "/tickets/" %}class="active"{% endif %}>Tickets</a></li>
-            <li><a href="/participate/"{% if page.url contains "/participate/" %}class="active"{% endif %}>Participate</a></li>
-            <li><a href="/speakers/"{% if page.url contains "/speakers/" %}class="active"{% endif %}>Speakers</a></li>
-            <li><a href="/sponsors/"{% if page.url contains "/sponsors/" %}class="active"{% endif %}>Sponsors</a></li>
-            <li><a href="/schedule/"{% if page.url contains "/schedule/" %}class="active"{% endif %}>Schedule</a></li> -->
-            <li><a href="/policies/"{% if page.url contains "/policies/" %}class="active"{% endif %}>Policies</a></li>
-          </ul>
-        </nav>
-        <header>
-          <div class="headers">
-            <a href="/">
-              <h1>Radical<span class="light">/Networks</span></h1>
-            </a>
-            <h2>October 24-25, 2015<br/>NYU Poly, Brooklyn, NY</h2>
-          </div>
-          <div id="social">
-            <a href="https://www.twitter.com/radnetworks" target="_blank"><img src="/images/twitter.png"></a>
-            <a href="mailto:info@radicalnetworks.org"><img src="/images/email.png"></a>
-          </div>
-        </header>
+        {% include nav.html %}
+        {% include header.html %}
+
+        {% include sidebar.html %}
 
         {{ content }}
 
         {% if page.url contains "/about/" %}
-        <footer>
-          Radical Networks is maintained by <a href="https://github.com/chootka">chootka</a>
-        </footer>
+        {% include footer.html %}
         {% endif %}
         
       </div>
