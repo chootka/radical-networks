@@ -114,6 +114,11 @@ header h2 {
   max-width: 620px;
 }
 
+.eyebeam {
+  position: absolute;
+  right: 90px;
+}
+
 #social {
   position: absolute;
   right: 50px;
