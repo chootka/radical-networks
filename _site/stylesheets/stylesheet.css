@@ -78,7 +78,7 @@ header {
 
 header h1 {
   font-family: 'Roboto Mono', 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size:  38px; font-weight: 300;
+  font-size:  48px; font-weight: 300;
   line-height: 1.2;
   color: #fff;
   text-transform: uppercase;
@@ -129,8 +129,12 @@ header h2 {
   right: 80px;
 }
 
+.sidebar p {
+  margin-bottom: 0;
+}
+
 .sidebar div {
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 .sidebar img {
@@ -288,13 +292,14 @@ h3 {
   font-size: 18px;
   /*font-weight: bold;*/
   /*color: #d5000d;*/
-  color: #4FB4E8;
+  /*color: #4FB4E8;*/
+  color: #8DC3DF;
 }
 
 h4 {
   font-size: 16px;
-  /*font-weight: bold;*/
-  color: #ABDEF9;
+  font-weight: bold;
+  color: #BFD7E5;
 }
 
 h5 {
