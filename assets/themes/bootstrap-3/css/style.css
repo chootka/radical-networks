@@ -402,13 +402,16 @@ header h1 {
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
   body {
-    font-size: 1.25em;
+    font-size: 1.2em;
   }
   h1 {
     font-size: 2em;
   }
   header {
     padding-bottom: 30px;
+  }
+  #footer p {
+    font-size: .5em;
   }
   .navbar-brand, .navbar-nav>li>a {
     padding: 15px 0;
@@ -418,12 +421,12 @@ header h1 {
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) { 
   body {
-    font-size: 1.25em;
+    font-size: 1.2em;
   }
   h1 {
     font-size: 1.75em;
   }
   #footer p {
-    font-size: .6em;
+    font-size: .5em;
   }
 }
