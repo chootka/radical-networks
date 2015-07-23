@@ -136,6 +136,11 @@ ul.nav li a.active {
   height: 3px;
 }
 
+.navbar-toggle .icon-spacer {
+  width: 37px;
+  height: 3px;
+}
+
 .social a {
   padding-right: 20px;
 }
