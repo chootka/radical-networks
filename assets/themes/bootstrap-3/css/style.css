@@ -143,6 +143,10 @@ ul.nav li a.active {
   border-radius: 1px;
 }
 
+.navbar-collapse {
+  border-top: 1px solid rgb(97, 96, 96);
+}
+
 .social a {
   padding-right: 20px;
 }
