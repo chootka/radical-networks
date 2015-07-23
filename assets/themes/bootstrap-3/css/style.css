@@ -410,6 +410,9 @@ header h1 {
   header {
     padding-bottom: 30px;
   }
+  .content {
+    padding: 0;
+  }
   #footer p {
     font-size: .5em;
   }
@@ -425,6 +428,9 @@ header h1 {
   }
   h1 {
     font-size: 1.75em;
+  }
+  .content {
+    padding: 0;
   }
   #footer p {
     font-size: .5em;
