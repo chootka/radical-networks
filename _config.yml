@@ -14,7 +14,8 @@ author :
   name : Radical Networks
   email : info@radicalnetworks.org
   github : chootka
-  twitter : radnetworks
+  twitter : radnets
+  feedburner :
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -68,18 +69,16 @@ JB :
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
   #
-  archive_path: /archive.html
-  categories_path : /categories.html
-  tags_path : /tags.html
-  atom_path : /atom.xml
-  rss_path : /rss.xml
+  about_path: /about
+  participate_path : /participate
+  policies_path : /policies
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    provider : false
     disqus :
       short_name : jekyllbootstrap
     livefyre :
@@ -99,7 +98,7 @@ JB :
   # Set 'provider' to false to turn analytics off globally.
   #        
   analytics :
-    provider : google
+    provider : false
     gauges :
         site_id : 'SITE ID'
     google : 

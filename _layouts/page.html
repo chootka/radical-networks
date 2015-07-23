@@ -1,6 +1,7 @@
 ---
+theme :
+  name : bootstrap-3
 layout: default
 ---
-<section id="main_content">
-  {{ content }}
-</section>
+{% include JB/setup %}
+{% include themes/bootstrap-3/page.html %}
