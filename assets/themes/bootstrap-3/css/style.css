@@ -122,8 +122,18 @@ ul.nav li a.active {
   background-color: #111;
 }
 
+.navbar-toggle {
+  position: static;
+  padding: 9px 0;
+  margin: 9px 0;
+  width: 40px;
+  height: 40px;
+}
+
 .navbar-toggle .icon-bar {
   background-color: #eee;
+  width: 37px;
+  height: 3px;
 }
 
 .social a {
