@@ -1,12 +1,13 @@
-<div class="page-header">
-  <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
-</div>
+<h2 class="post">{{ page.title }}</h2>
 
 <div class="row post-full">
-  <div class="col-xs-12">
+  <div class="col-sm-12">
     <div class="date">
       <span>{{ page.date | date_to_long_string }}</span>
     </div>
+    <p>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-via="radnetworks">Tweet</a>
+    </p>
     <div class="content">
       {{ content }}
     </div>
@@ -27,21 +28,17 @@
     </ul>
   {% endunless %}  
   
-    <hr>
     <ul class="pagination">
     {% if page.previous %}
       <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&laquo; Previous</a></li>
     {% else %}
       <li class="prev disabled"><a>&larr; Previous</a></li>
     {% endif %}
-      <li><a href="{{ BASE_PATH }}">Home</a></li>
     {% if page.next %}
       <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &raquo;</a></li>
     {% else %}
       <li class="next disabled"><a>Next &rarr;</a>
     {% endif %}
     </ul>
-    <hr>
-    {% include JB/comments %}
   </div>
 </div>

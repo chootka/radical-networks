@@ -32,10 +32,10 @@
 
     <!-- Fav and touch icons -->
     <!-- Update these with your own images
-      <link rel="shortcut icon" href="images/favicon.ico">
-      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-      <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-      <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+      <link rel="shortcut icon" href="{{ ASSET_PATH }}/images/favicon.ico">
+      <link rel="apple-touch-icon" href="{{ ASSET_PATH }}/images/apple-touch-icon.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="{{ ASSET_PATH }}/images/apple-touch-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="{{ ASSET_PATH }}/images/apple-touch-icon-114x114.png">
     -->
   </head>
 
@@ -58,9 +58,7 @@
 
     <div id="footer">
       <div class="container">
-        <!-- {#% if page.url contains "/about/" %#} -->
         {% include footer.html %}
-        <!-- {#% endif %#} -->
       </div>
     </div>
 
@@ -71,5 +69,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
   </body>
 </html>

@@ -262,6 +262,11 @@ h2 {
   margin: 20px 0;
 }
 
+h2.post {
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
 h3 {
   margin: 20px 0;
   font-size: 1.15em;
@@ -309,6 +314,15 @@ ul li {
   padding-left: 10px;
 }
 
+.pagination>li,
+.pagination>li>a,
+.pagination>.disabled>a,
+.pagination>li>a:hover,
+.pagination>.disabled>a:hover {
+  background: none;
+  border: none;
+}
+
 ol li {
   list-style-position: inside;
   list-style: decimal;
@@ -340,6 +354,11 @@ header h1 {
 
 .light {
   font-weight: 100;
+}
+
+.date {
+  color: #bbb;
+  margin-bottom: 20px;
 }
 
 /* MISC */
