@@ -12,7 +12,7 @@ title: Announcing Radical Networks
   <li>Why does it matter to understand how networks work?</li>
   <li>Why do community networks matter?</li>
   <li>How could free, open local networks benefit people?</li>
-  <li>What can networks be used for other than social networking and commerical use?</li>
+  <li>What can networks be used for other than social networking and commercial use?</li>
 </ul>
 
 <h3>THEMES</h3>
