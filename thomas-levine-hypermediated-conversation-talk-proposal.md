@@ -61,4 +61,4 @@ that involved many elements of the
 When he isn't sleeping, he often develops experimental lifestyles and
 life-automation software in an effort to give himself more time to sleep.
 
-![thomas-levine-small.jpg](thomas-levine-small.jpg)
+![http://dada.pink/radical-networks/thomas-levine-small.jpg](http://dada.pink/radical-networks/thomas-levine-small.jpg)
