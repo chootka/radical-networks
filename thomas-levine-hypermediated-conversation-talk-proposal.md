@@ -49,8 +49,7 @@ that involved many elements of the
 When he isn't sleeping, he often develops experimental lifestyles and
 life-automation software in an effort to give himself more time to sleep.
 
-
-[URL to bio picture goes here. Format for bio picture should be PNG/JPG/GIF, 256x256.]
+![thomas-levine-small.jpg](thomas-levine-small.jpg)
 
 [Bio goes here. I'm an example bio. My background includes this and that. I've also contributed to these projects. These are some of my interests.]
 Template ends before this line All fields are required!
