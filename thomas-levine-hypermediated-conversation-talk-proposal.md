@@ -50,9 +50,3 @@ When he isn't sleeping, he often develops experimental lifestyles and
 life-automation software in an effort to give himself more time to sleep.
 
 ![thomas-levine-small.jpg](thomas-levine-small.jpg)
-
-[Bio goes here. I'm an example bio. My background includes this and that. I've also contributed to these projects. These are some of my interests.]
-Template ends before this line All fields are required!
-
-    When you're ready, submit! Don't worry, you can go back and edit it if you need to.
-    Wait for us to get back to you, which we will do by August 20, 2015. We will respond to everyone who submits a proposal.
