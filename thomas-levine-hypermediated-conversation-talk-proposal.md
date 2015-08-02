@@ -27,6 +27,17 @@ my communications, and I will conclude with some
 [steps](https://thomaslevine.com/!/tom-computer-school/#firstday)
 that you can take if you would like to create a similar digital appendage for yourself.
 
+This talk is particularly related to the following of the topics that are
+itemized in the [call for proposals](http://radicalnetworks.org/participate/).
+
+* local networks for community
+* experimental application of computer networks
+* network security for ordinary citizens
+* artistic use of computer networks
+* personal networks
+* experimental social networks
+* control and ownership of networks
+
 ## Length of talk / panel / workshop
 
 I could fill 45 minutes, but 15 minutes is already enough time to present something useful.
@@ -43,7 +54,8 @@ Not applicable
 ## Speaker Bio
 
 Thomas Levine is a dada artist who really likes to sleep.
-His interest in sleep is largely a rebellion against his upbringing in America
+His interests in dada and sleep are
+largely a rebellion against his upbringing in America
 that involved many elements of the
 [Protestant work ethic](https://en.wikipedia.org/wiki/Protestant_work_ethic).
 When he isn't sleeping, he often develops experimental lifestyles and
