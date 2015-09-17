@@ -70,7 +70,7 @@ JB :
   # Some JB helpers refer to these paths; change them here if needed.
   #
   about_path: /about
-  participate_path : /participate
+  speakers_path : /speakers
   policies_path : /policies
 
   # Settings for comments helper
