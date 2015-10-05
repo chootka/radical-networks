@@ -71,6 +71,7 @@ JB :
   #
   about_path: /about
   speakers_path : /speakers
+  program_path : /program
   policies_path : /policies
 
   # Settings for comments helper

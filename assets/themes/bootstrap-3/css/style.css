@@ -265,6 +265,9 @@ h2 {
   line-height: 1.3;
   margin: 20px 0;
 }
+h2.program {
+  font-size: 1.5em;
+}
 
 h2.post {
   font-size: 1.5em;
@@ -275,6 +278,10 @@ h3 {
   margin: 20px 0;
   font-size: 1.15em;
   color: #8DC3DF;
+}
+
+h3.program {
+  margin: 20px 0 10px;
 }
 
 h4 {
@@ -311,6 +318,33 @@ blockquote {
   margin-bottom: 20px;
   font-size: 1.6em;
   border-left: 10px solid #e9e9e9;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+tr {
+  background: #333;
+}
+tr:nth-of-type(odd) {
+    background: #444;
+}
+tr.light {
+  background: #777;
+}
+th {
+    background: #1D282F;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+td, th {
+    padding: 6px;
+    border: 1px solid #000;
+}
+td.workshop {
+  background: #3B4751;
 }
 
 ul li {
