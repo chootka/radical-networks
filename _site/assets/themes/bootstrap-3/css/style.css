@@ -403,6 +403,10 @@ header h1 {
   margin-bottom: 20px;
 }
 
+a .title {
+  color: #fff;
+}
+
 /* MISC */
 .clearfix:after {
   display: block;
