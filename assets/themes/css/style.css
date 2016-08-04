@@ -116,13 +116,13 @@ header .social {
   text-shadow: none;
 }
 
+.navbar-nav>li>a.active {
+  border-bottom: 1px solid #07E656;
+}
+
 ul.nav li {
   background: none;
   padding-left: 30px;
-}
-
-ul.nav li a.active {
-  color: #F49CCA;
 }
 
 .nav>li>a:hover, .nav>li>a:focus {
