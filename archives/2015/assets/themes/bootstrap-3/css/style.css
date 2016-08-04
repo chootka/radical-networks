@@ -1,0 +1,524 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  border: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* LAYOUT STYLES */
+body {
+  color: #fff;
+  font-family: 'Roboto Mono', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.5;
+  background-color: #000;
+  text-shadow: none;
+  padding: 0 30px;
+}
+
+a {
+  /*color: #d5000d;*/
+  color: #D2408D;
+  /*color: ##F4BFBF;*/
+  /*color: #04D3C4;*/
+}
+a:hover {
+  /*color: #c5000c;*/
+  /*color: #CFF5F3;*/
+  color: #B01C6A;
+  text-decoration: none;
+}
+
+header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+header a,
+header a:hover {
+  color: #fff;
+}
+
+header .social {
+  display: none;
+}
+
+.content {
+  padding: 0 30px 0 0;
+}
+
+.post-div {
+  padding-bottom: 20px;
+}
+
+.content p {
+  margin-top: 15px;
+}
+
+.navbar {
+   position: static; 
+   min-height: 0; 
+   margin-bottom: 0; 
+   border: none; 
+   border-radius: 0;
+}
+
+.navbar-collapse {
+  float: right;
+  padding: 0 50px 0 0;
+}
+
+.navbar-nav {
+  padding: 14px 0 0;
+}
+
+.navbar-brand, .navbar-nav>li>a {
+  color: #D2408D;
+  padding: 0;
+  text-shadow: none;
+}
+
+ul.nav li {
+  background: none;
+  padding-left: 30px;
+}
+
+ul.nav li a.active {
+  color: #F49CCA;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+  color: #B01C6A;
+  background-color: #111;
+}
+
+.navbar-toggle {
+  position: static;
+  padding: 9px 0;
+  margin: 9px 0;
+  width: 40px;
+  height: 40px;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #eee;
+  width: 37px;
+  height: 3px;
+}
+
+.navbar-toggle .icon-spacer {
+  display: block;
+  width: 37px;
+  height: 6px;
+  border-radius: 1px;
+}
+
+.navbar-collapse {
+  border-top: 1px solid rgb(97, 96, 96);
+}
+
+.social a {
+  padding-right: 20px;
+}
+
+.sidebar {
+  max-width: 325px;
+}
+
+.sidebar p {
+  margin-bottom: 0;
+}
+
+.sidebar div {
+  padding-top: 20px;
+}
+
+.sidebar img {
+  margin-top: 7px;
+}
+
+#footer {
+  background: none;
+  margin-left: -30px;
+}
+
+#footer p {
+  color: #666;
+  font-size: .8em;
+}
+
+#footer a {
+  color: #333;
+}
+
+#footer a:hover {
+  color: #666;
+}
+
+a.button {
+  display: block;
+  float: left;
+  width: 179px;
+  padding: 12px 8px 12px 8px;
+  margin-right: 14px;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 25px;
+  color: #303030;
+}
+a.button:hover {
+  background: #111; /* Old browsers */
+}
+
+a.button span {
+  display: block;
+  height: 23px;
+  padding-left: 50px;
+}
+
+code, pre {
+  margin-bottom: 30px;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
+  font-size: 14px;
+  color: #222;
+}
+
+code {
+  padding: 0 3px;
+  background-color: #f2f2f2;
+  border: solid 1px #ddd;
+}
+
+pre {
+  padding: 20px;
+  overflow: auto;
+  color: #f2f2f2;
+  text-shadow: none;
+  background: #303030;
+}
+pre code {
+  padding: 0;
+  color: #f2f2f2;
+  background-color: #303030;
+  border: none;
+}
+
+ul, ol, dl {
+  margin-bottom: 20px;
+}
+
+
+/* COMMON STYLES */
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+
+/* GENERAL ELEMENT TYPE STYLES */
+h1 {
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-size: 1.25em;
+  font-weight: 400;
+  line-height: 1.3;
+  margin: 20px 0;
+}
+h2.program {
+  font-size: 1.5em;
+}
+
+h2.post {
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
+h3 {
+  margin: 20px 0;
+  font-size: 1.15em;
+  color: #8DC3DF;
+}
+
+h3.program {
+  margin: 20px 0 10px;
+}
+
+h4 {
+  font-size: 1em;
+  font-weight: bold;
+  color: #BFD7E5;
+}
+
+h5 {
+  font-size: 1em;
+  color: #303030;
+}
+
+h6 {
+  font-size: .8em;
+  color: #303030;
+}
+
+p {
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+p a {
+  font-weight: 400;
+}
+
+blockquote {
+  padding: 0 0 0 30px;
+  margin-bottom: 20px;
+  font-size: 1.6em;
+  border-left: 10px solid #e9e9e9;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+tr {
+  background: #333;
+}
+tr:nth-of-type(odd) {
+    background: #444;
+}
+tr.light {
+  background: #777;
+}
+th {
+    background: #1D282F;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+td, th {
+    padding: 6px;
+    border: 1px solid #000;
+}
+td.workshop {
+  background: #3B4751;
+}
+
+ul li {
+  background: url("/archive/2015/assets/themes/bootstrap-3/images/bullet.png") no-repeat left 10px;
+  padding-left: 10px;
+}
+
+.pagination>li,
+.pagination>li>a,
+.pagination>.disabled>a,
+.pagination>li>a:hover,
+.pagination>.disabled>a:hover {
+  background: none;
+  border: none;
+}
+
+ol li {
+  list-style-position: inside;
+  list-style: decimal;
+  padding-left: 3px;
+}
+
+dl dt {
+  color: #303030;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-top: 40px;
+  font-size: 13px;
+  color: #aaa;
+}
+
+footer a {
+  color: #666;
+}
+footer a:hover {
+  color: #444;
+}
+
+header h1 {
+  cursor: pointer;
+}
+
+.light {
+  font-weight: 100;
+}
+
+.date {
+  color: #bbb;
+  margin-bottom: 20px;
+}
+
+a .title {
+  color: #fff;
+}
+
+/* MISC */
+.clearfix:after {
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  content: '.';
+}
+
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+
+/* #Media Queries
+================================================== */
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) { 
+  .sidebar {
+    max-width: none;
+    padding: 30px 0;
+  }
+  .sidebar div {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 50px;
+  }
+  .sidebar .social {
+    display: none;
+  }
+  header .social {
+    display: block;
+  }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+  header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navbar {
+    border-radius: 0;
+  }
+  .navbar-collapse {
+    float: none;
+    padding: 0 15px;
+  }
+  .navbar-nav {
+    padding: 0;
+  }
+  ul.nav li {
+    padding-left: 0;
+  }
+  .navbar-brand, .navbar-nav>li>a {
+    padding: 5px 0;
+  }
+  .sidebar {
+    max-width: none;
+    padding: 30px 0;
+  }
+  .sidebar div {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 50px;
+  }
+  .sidebar .social {
+    display: none;
+  }
+  header .social {
+    display: block;
+  }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+  body {
+    font-size: 1.15em;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  header {
+    padding-bottom: 30px;
+  }
+  .content {
+    padding: 0;
+  }
+  #footer p {
+    font-size: .5em;
+  }
+  .navbar-brand, .navbar-nav>li>a {
+    padding: 15px 0;
+  }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) { 
+  body {
+    font-size: 1.15em;
+  }
+  h1 {
+    font-size: 1.75em;
+  }
+  .content {
+    padding: 0;
+  }
+  #footer p {
+    font-size: .5em;
+  }
+}
