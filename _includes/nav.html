@@ -16,7 +16,8 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="jb-navbar-collapse">
       <ul class="nav navbar-nav">
-      {% for node in site.pages %}
+      {% assign sorted_pages = site.pages | sort:"order" %}
+      {% for node in sorted_pages %}
         {% unless node.exclude_from_nav %}
             {% if page.url == node.url %}
               <li class="active"><a href="{{node.url}}" class="active">{{node.title}}</a></li>
