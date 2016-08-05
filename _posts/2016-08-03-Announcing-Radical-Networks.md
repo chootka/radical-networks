@@ -2,7 +2,7 @@
 layout: post
 title: Announcing Radical Networks 2016!!!
 ---
-<p>Join us for three days of speakers, panels and workshops designed to introduce the community to DIY networking. Learn how to create your own offline networks, portable web servers, mesh networks or internet gateways in hands on workshops. Attend panels where you can discuss your visions for how a localized network could support your school, your community, or your cause. Listen to speakers talk about the future of computer networks and why it’s important to understand how networks work in this age of hyper-connectivity.</p>
+<p>Join us for three days of speakers, panels, workshops, and an art exhibit designed to introduce the community to DIY networking. Learn how to create your own offline networks, portable web servers, mesh networks or internet gateways in hands on workshops. Attend panels where you can discuss your visions for how a localized network could support your school, your community, or your cause. Listen to speakers talk about the future of computer networks and why it’s important to understand how networks work in this age of hyper-connectivity.</p>
 
 <p>The conference will be organized around the following questions and themes:</p>
 
