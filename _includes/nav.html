@@ -18,7 +18,7 @@
       <ul class="nav navbar-nav">
       {% assign sorted_pages = site.pages | sort:"order" %}
       {% for node in sorted_pages %}
-        {% if group == "navigation" %}
+        {% if node.group == "navigation" %}
           {% unless node.exclude_from_nav %}
             {% if page.url == node.url %}
               <li class="active"><a href="{{node.url}}" class="active">{{node.title}}</a></li>
