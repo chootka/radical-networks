@@ -454,6 +454,9 @@ a .title {
   .content img {
     width: 100%;
   }
+  .content .profile img {
+    max-width: 400px;
+  }
   .sidebar {
     max-width: none;
     padding: 30px 0;
@@ -485,6 +488,9 @@ a .title {
   }
   .content img {
     width: 100%;
+  }
+  .content .profile img {
+    max-width: 400px;
   }
   .navbar {
     border-radius: 0;
@@ -534,6 +540,9 @@ a .title {
   .content img {
     width: 100%;
   }
+  .content .profile img {
+    max-width: 400px;
+  }
   .content {
     padding: 0;
   }
@@ -555,6 +564,9 @@ a .title {
   }
   .content img {
     width: 100%;
+  }
+  .content .profile img {
+    max-width: 400px;
   }
   .content {
     padding: 0;
