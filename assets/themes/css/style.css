@@ -480,7 +480,7 @@ a .title {
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  img {
+  .content img {
     width: 100%;
   }
   .navbar {
@@ -528,7 +528,7 @@ a .title {
   header {
     padding-bottom: 30px;
   }
-  img {
+  .content img {
     width: 100%;
   }
   .content {
@@ -550,7 +550,7 @@ a .title {
   h1 {
     font-size: 1.75em;
   }
-  img {
+  .content img {
     width: 100%;
   }
   .content {
