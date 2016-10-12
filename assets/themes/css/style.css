@@ -451,6 +451,9 @@ a .title {
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 959px) { 
+  .content img {
+    width: 100%;
+  }
   .sidebar {
     max-width: none;
     padding: 30px 0;
