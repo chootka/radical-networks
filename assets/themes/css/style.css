@@ -79,6 +79,10 @@ header .social {
   display: none;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .content {
   padding: 0 30px 0 0;
 }
@@ -476,6 +480,9 @@ a .title {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+  img {
+    width: 100%;
+  }
   .navbar {
     border-radius: 0;
   }
@@ -521,6 +528,9 @@ a .title {
   header {
     padding-bottom: 30px;
   }
+  img {
+    width: 100%;
+  }
   .content {
     padding: 0;
   }
@@ -539,6 +549,9 @@ a .title {
   }
   h1 {
     font-size: 1.75em;
+  }
+  img {
+    width: 100%;
   }
   .content {
     padding: 0;
