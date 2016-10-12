@@ -453,6 +453,7 @@ a .title {
 @media only screen and (min-width: 768px) and (max-width: 959px) { 
   .content img {
     width: 100%;
+    max-width: 768px;
   }
   .content .profile img {
     max-width: 400px;
