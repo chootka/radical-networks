@@ -429,6 +429,12 @@ a .title {
   padding: 20px 0;
 }
 
+.donate {    
+  font-weight: 600;
+  border-bottom: solid 1px;
+  padding-bottom: 2px;
+}
+
 /* MISC */
 .clearfix:after {
   display: block;
