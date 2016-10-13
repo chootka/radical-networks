@@ -429,7 +429,11 @@ a .title {
   padding: 20px 0;
 }
 
-.donate {    
+.donate { 
+  padding-bottom: 10px;   
+}
+
+.donate a {
   font-weight: 600;
   border-bottom: solid 1px;
   padding-bottom: 2px;
