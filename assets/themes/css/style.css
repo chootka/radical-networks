@@ -165,7 +165,14 @@ ul.nav li {
 }
 
 .social a {
+  color: #EE2A7B;
   padding-right: 20px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.social a.press {
+  margin-top: 5px;
 }
 
 .sidebar {
@@ -556,6 +563,9 @@ a .title {
   }
   .content {
     padding: 0;
+  }
+  .sidebar {
+    max-width: 300px;
   }
   #footer p {
     font-size: .5em;

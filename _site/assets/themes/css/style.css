@@ -79,6 +79,10 @@ header .social {
   display: none;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .content {
   padding: 0 30px 0 0;
 }
@@ -161,7 +165,14 @@ ul.nav li {
 }
 
 .social a {
+  color: #EE2A7B;
   padding-right: 20px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.social a.press {
+  margin-top: 5px;
 }
 
 .sidebar {
@@ -425,6 +436,16 @@ a .title {
   padding: 20px 0;
 }
 
+.donate { 
+  padding-bottom: 10px;   
+}
+
+.donate a {
+  font-weight: 600;
+  border-bottom: solid 1px;
+  padding-bottom: 2px;
+}
+
 /* MISC */
 .clearfix:after {
   display: block;
@@ -447,6 +468,13 @@ a .title {
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 959px) { 
+  .content img {
+    width: 100%;
+    max-width: 768px;
+  }
+  .content .profile img {
+    max-width: 400px;
+  }
   .sidebar {
     max-width: none;
     padding: 30px 0;
@@ -475,6 +503,12 @@ a .title {
   header {
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+  .content img {
+    width: 100%;
+  }
+  .content .profile img {
+    max-width: 400px;
   }
   .navbar {
     border-radius: 0;
@@ -521,8 +555,17 @@ a .title {
   header {
     padding-bottom: 30px;
   }
+  .content img {
+    width: 100%;
+  }
+  .content .profile img {
+    max-width: 400px;
+  }
   .content {
     padding: 0;
+  }
+  .sidebar {
+    max-width: 300px;
   }
   #footer p {
     font-size: .5em;
@@ -539,6 +582,12 @@ a .title {
   }
   h1 {
     font-size: 1.75em;
+  }
+  .content img {
+    width: 100%;
+  }
+  .content .profile img {
+    max-width: 400px;
   }
   .content {
     padding: 0;
