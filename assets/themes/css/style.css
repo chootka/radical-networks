@@ -362,6 +362,9 @@ tr:nth-of-type(odd) {
 tr.light {
   background: #777;
 }
+tr.public {
+  background: #27536D;
+}
 th {
     background: #1D282F;
     color: white;
