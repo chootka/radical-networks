@@ -184,7 +184,7 @@ ul.nav li {
 }
 
 .sidebar div {
-  padding-top: 20px;
+  padding-top: 40px;
 }
 .sidebar div:nth-child(1) img {
   margin-top: 14px;
@@ -447,6 +447,11 @@ a .title {
   font-weight: 600;
   border-bottom: solid 1px;
   padding-bottom: 2px;
+}
+
+a.tickets {
+    font-size: 25px;
+    font-weight: 500;
 }
 
 /* MISC */
