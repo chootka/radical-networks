@@ -1,6 +1,6 @@
 # radical-networks
 
-November 4-6, 2016  
-Elsewhere, Brooklyn, NY
+October 19-22, 2017 
+Brooklyn, NY
 
 Details at http://radicalnetworks.org/
