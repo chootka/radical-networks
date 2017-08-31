@@ -1,0 +1,13 @@
+---
+layout: page
+title : Dave Evans
+---
+<h3>Dave Evans</h3>
+<img src="dave_evans.jpeg" />
+<p><a href="http://evansdave.com/" target="_blank">Website</a> | <a href="https://twitter.com/daveevanss" target="_blank">Twitter</a></p>
+<p>I’m an artist and researcher based in Liverpool. I’m interested in the relationship between networks and medieval monasteries. I trained as a sculptor and printmaker but now find myself doing a PhD on asceticism in digital networks. This involves thinking about ways monks sought to regain control of their lives from the pope through limiting their activity and inventing a new type of user. I’ve been using this as inspiration for making portable DIY WLAN’s and self-hosted sites using raspberry pi. You can see some of my projects at <a href="http://evansdave.com/" target="_blank">evansdave.com</a> and <a href="http://whitewizard.org/" target="_blank">whitewizard.org</a></p>
+
+<hr />
+<h2>Presenting</h2>
+<h3>What Might Digital Asceticism Look Like?</h3>
+<p>I would like to lead a discussion around digital asceticism and what this might look like. Asceticism is relevant not in it’s religious sense, but in the sense of it being a historical practice where one is focused on ones interactions with things and actively limits these interactions. I would like to discuss with the audience existing strategies for ‘choking’ the inflow of networked information (totally opting out for a period, apps that block apps like Offtime, personal strategies such only listening to music from one year per week etc) and the limitations of these approaches. I then propose to discuss what a network is, a benign system governed by protocols, and in the case of the internet, subject to colonisation by the organisations wealthy and well organised enough to extend and control it. This, I will contend, was also the situation in medieval Europe, with a benign network of monks on the one hand, wanting to follow the example of Jesus, and the legal and doctrinal resources of the Pope and Roman curia on the other, applying pressure to worship in a particular way. I would like to discuss the Franciscans approach in particular, who ‘invented’ a new type of user – the de-facto user, essentially one who could use but not own. By doing this I wish to highlight that new forms of networked use, those that rely on an abdication of rights rather than a continued accrual of them, and might offer a clue to what digital asceticism might look like.</p>

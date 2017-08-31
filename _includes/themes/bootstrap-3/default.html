@@ -41,12 +41,12 @@
         {% include header.html %}
 
         <div class="row">
-          <div class="col-md-12 content">
+          <div class="col-md-8 content">
             {{ content }}
           </div>
-<!--           <div class="col-md-4 sidebar">
-            {#% include sidebar.html %#}
-          </div> -->
+          <div class="col-md-4 sidebar">
+            {% include sidebar.html %}
+          </div>
         </div>  
       </div>
     </div>

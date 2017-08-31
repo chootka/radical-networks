@@ -4,10 +4,20 @@ title : Radical Networks
 exclude_from_nav: true
 ---
 {% include JB/setup %}
-<h3>Call For Proposals Has Ended</h3>
-
-<p>Stay tuned for the program announcement!</p>
-
-<h3>Sponsorship</h3>
-
-<p>If you are interested in providing a tax-deductible financial, food or drink, or materials sponsorship to Radical Networks, please get in touch with Sarah at sarah@radicalnetworks.org.</p>
+{% for post in site.posts %}  
+	<div class="post-div">  
+		<h2 class="post">{{ post.title }}</h2>
+		<div class="date">
+	      <span>{{ post.date | date_to_long_string }}</span>
+	    </div>
+	    <div class="content">
+	      {{ post.content }}
+	    </div>
+	    <p>
+	      <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://radicalnetworks.org{{ post.url }}" data-via="radnetworks">Tweet</a>
+	    </p>
+	    <p>
+			<a href="{{ post.url }}">Read More &raquo;</a> 
+	    </p> 
+	</div>  
+{% endfor %}

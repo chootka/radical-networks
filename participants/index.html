@@ -1,0 +1,12 @@
+---
+layout: page
+title : Participants
+<!-- group: navigation -->
+<!-- order: 1 -->
+---
+<h3>2017 Radical Networks Participants</h3>
+<ul>
+{% for participant in site.participants %}  
+	<li><a href="{{ participant.url }}">{{ participant.title }}</a></li>  
+{% endfor %}
+</ul>
