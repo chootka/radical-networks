@@ -16,6 +16,6 @@ title : Jeff Ahking
 
 <p>In this workshop, you'll learn how to set up your own VPN with Algo which you can use, configure, and share access to according to your own and your community's own needs. Everyone who joins will be able to freely and permanently use the (fully functional) VPN we set up, and will walk away with the knowledge and resources they need to create and host their own afterwards.</p>
 
-<h4>Workshop Requirements</h4>
+<h3>Workshop Requirements</h3>
 <p>If able, please bring a computer or the ability to keep notes and links.<br/>
 Minimal command line skills would be helpful but are not required.</p>
