@@ -16,5 +16,5 @@ title: Brett Ian Balogh
 
 <p>This workshop is a new counterpart to the do-it-yourself FM transmitter workshops I have been giving in my Do-It-Yourself Broadcast class at the School of the Art Institute of Chicago since 2007, as well as at events such as the Sound Megapolis Festivals and other community venues. The class has traditionally been Fm-radio centric, dovetailing with the international radio, or transmission arts community. Tetsuo Kogawa's notion of polymorphous space is a central theme and the transmitter he designed an essential piece of hardware. My argument for these ideas and techniques was that with little investment in time, energy and resources, infrastructure-free networks could be created. The internet has always had the overhead of way too much infrastructure, from satellites all the way down to copper and fiber. With the proliferation of System-On-Chip devices (SoC's) , open-source router firmwares and advanced mesh network protocols, creating your own wifi network is almost as easy to implement as the FM transmitter. The focus of the workshop is to create a point of interest, a source of information, or a den of a spirit. What is your wireless presence in the wilderness?</p>
 
-<h4>Workshop Requirements</h4>
+<h3>Workshop Requirements</h3>
 <p>Full list of requirements and materials coming soon!</p>
