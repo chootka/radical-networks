@@ -21,7 +21,8 @@ title: Jen Kagan
 
 <img src="herbivore.png" width="588"/>
 
-<h4>Workshop Requirements</h4>
-<p>You will need a Mac to run Herbivore :( . Unfortunately support on Linux and Windows is janky right now, we hope to have it ready in time for RN but may not happen. But all is not lost! Even if you dont have a Mac you can still learn a whole bunch. We encourage participants to work together and share computers.</p>
+<h3>Workshop Requirements</h3>
+<p>You will need a Mac to run Herbivore :( . But all is not lost! Even if you dont have a Mac you can still learn a whole bunch. We encourage participants to work together and share computers.</p>
 
-<p>Note: This isn't a 'hacking' workshop. The focus is to help participants be able to see how their computers talk to other computers on the internet and the different type of negotiations that take place in the process. If you're looking to 'hack the mainframe' this workshop will probably dissapoint you.</p>
+<h4>Note: This isn't a 'hacking' workshop.</h4> 
+<p>The focus is to help participants be able to see how their computers talk to other computers on the internet and the different type of negotiations that take place in the process. If you're looking to 'hack the mainframe' this workshop will probably disappoint you.</p>
