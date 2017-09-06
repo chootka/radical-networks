@@ -8,8 +8,8 @@ title: Shira Feldman
 <p>Hi! My name is Shira Feldman; I'm a recent NYU graduate having concentrated in critical internet theory and new media art. My interests lay particularly in the design and ethics of networks, as they manifest both technically and conceptually. This past year I wrote a thesis on "post internet" artworks, following the claim, "the internet does not exist" from an e-flux journal published in 2015. You can find my work online at www.shira-feldman.net, and some thoughts & memes on Twitter, <a href="https://www.twitter.com/shirarbira" target="_blank">@shirarbira</a>.</p>
 
 <hr />
-<h2>Exhibiting</h2>
-<h3>The Internet Is</h3>
+<h2>Exhibiting with <a href="anna-bialas">Anna Bialas</a></h2>
+<h3>The Internet Is __</h3>
 <p>//How do we talk about and give shape to a concept of "the internet" -- a word that describes both everything and nothing at the same time?</p>
 
 <p>//How do we discuss the here and the now of the all-out internet condition?</p>

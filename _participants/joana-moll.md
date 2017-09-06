@@ -3,6 +3,7 @@ layout: page
 title: Joana Moll
 ---
 <h3>Joana Moll</h3>
+<img src="joana.jpg" />
 <p><a href="http://algorithmsallowed.schloss-post.com/algorithms_allowed.html" target="_blank">Website</a> | <a href="https://twitter.com/joana_moll" target="_blank">Twitter</a></p>
 <p>Joana is an artist and a researcher from Barcelona. Her work critically explores the way post-capitalist narratives affect the alphabetization of machines, humans and ecosystems. Her main research topics include Internet materiality, Surveillance, Social Profiling, Critical Interfaces and language. She has lectured, performed and exhibited her work in different museums, art centers, universities, festivals and publications around the world, such as ZKM, MAXXI, The Photographers’ Gallery in London, Laboral, The New School, MACBA, CCCB, Centro de Arte Alameda, FILE Festival, ISEA and Athens Digital Arts Festival. Furthermore she is the co-founder of the Critical Interface Politics Research Group at HANGAR [Barcelona] and the co-founder of The Institute for the Advancement of Popular Automatisms. She is currently a visiting lecturer at Universität Potsdam, Escola Superior d'Art de Vic [Barcelona] and a visiting researcher at Tactical Tech Collective [Berlin].</p>
 
