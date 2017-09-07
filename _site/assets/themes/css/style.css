@@ -184,7 +184,7 @@ ul.nav li {
 }
 
 .sidebar div {
-  padding-top: 40px;
+  padding-top: 28px;
 }
 .sidebar div:nth-child(1) img {
   margin-top: 14px;
@@ -450,7 +450,9 @@ a .title {
 }
 
 a.tickets {
-    font-size: 25px;
+    color: #2aeee5;
+    font-size: 20px;
+    line-height: 23px;
     font-weight: 500;
 }
 
