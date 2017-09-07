@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Announcing: Radical Networks 2017 Kickstarter Campaign!
+title: Radical Networks 2017 Kickstarter Campaign!
 ---
 <p>We are excited to announce the <a href="https://www.kickstarter.com/projects/radicalnetworks/radical-networks" target="_blank">Radical Networks 2017 Kickstarter</a> Campaign!</p>
 
