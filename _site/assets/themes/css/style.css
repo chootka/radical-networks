@@ -335,6 +335,7 @@ p {
 }
 
 a {
+  cursor: pointer;
   text-decoration: none;
 }
 
@@ -358,6 +359,16 @@ tr {
 }
 tr:nth-of-type(odd) {
     background: #444;
+}
+.sponsor-logos {
+  padding-bottom: 30px;
+}
+.sponsor-logos tr {
+  background: #000;
+}
+.sponsor-logos td {
+  padding-left: 0;
+  vertical-align: middle;
 }
 tr.light {
   background: #777;
@@ -506,6 +517,12 @@ a.tickets {
   header .social {
     display: block;
   }
+  .content .sponsor-logos img {
+    max-width: 100px; 
+  }
+  .content .sponsor-logos td {
+      padding: 12px 24px 12px 0;
+  }
 }
 
 /* All Mobile Sizes (devices and browser) */
@@ -552,6 +569,12 @@ a.tickets {
   header .social {
     display: block;
   }
+  .content .sponsor-logos img {
+    max-width: 100px; 
+  }
+  .content .sponsor-logos td {
+      padding: 12px 24px 12px 0;
+  }
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -583,6 +606,12 @@ a.tickets {
   .navbar-brand, .navbar-nav>li>a {
     padding: 15px 0;
   }
+  .content .sponsor-logos img {
+    max-width: 100px; 
+  }
+  .content .sponsor-logos td {
+      padding: 12px 24px 12px 0;
+  }
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -604,5 +633,11 @@ a.tickets {
   }
   #footer p {
     font-size: .5em;
+  }
+  .content .sponsor-logos img {
+    max-width: 100px; 
+  }
+  .content .sponsor-logos td {
+      padding: 12px 24px 12px 0;
   }
 }
