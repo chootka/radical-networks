@@ -13,3 +13,6 @@ title: Radical Networks Scholarships
 
 <h3>Who Should Apply</h3>
 <p>Anyone from an underrepresented group in tech is invited to apply for this scholarship. This includes, but is not limited to: women, people of color, LGBTQIA+ people, disabled people, and people facing economic or social hardships.</p>
+
+<h3>How To Apply</h3>
+<p>Applying is simple - just <a href="info@radicalnetworks.org">email us</a> and tell us about why you would like to come to Radical Networks this year.</p>
