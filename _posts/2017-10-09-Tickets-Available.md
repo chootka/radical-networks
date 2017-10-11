@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Kickstarter Funding Success!
+title: Eventbrite Tickets
 ---
 <h3>Tickets Available on Eventbrite!</h3>
 
