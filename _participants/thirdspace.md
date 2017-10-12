@@ -9,7 +9,7 @@ title: Third Space
 
 <hr />
 <h2>Workshop</h2>
-<h3>False Starts: Deterritorializations in Virtual Spaces. Workshop and Urban Intervention</h3>
+<h3>Wifi Networks as Platform for Unauthorized Exhibitions in Public Space</h3>
 <h4>Background</h4>
 <p>Wi-Fi networks populate urban environments and create intersecting boundaries within physical space. These territories provide new and interesting topographies, opening-up uncharted creative potential.</p>
 <p>Captive portals provide a temporary gateway to the Internet, generally a place for businesses to harvest data but for us a place to provocatively host digital artworks.
