@@ -9,5 +9,5 @@ title: Mehan Jayasuriya
 
 <hr />
 <h2>Presenting</h2>
-<h3></h3>
-<p></p>
+<h3>Community Networks, Past and Future</h3>
+<p>Before the Internet, there were hobbyist-built and maintained networks. These networks evolved alongside the public Internet, fed into its development and provided glimpses of what a global, public communications network might look like. I'll detail a few of these alternate histories in my talk, with a focus on networks built by artists, activists and women. I'll then highlight some of the problems that hobbyist-built networks can help solve today as well as some novel solutions from around the globe. Finally, I'll talk a bit about Mozilla's Wireless Innovation for a Networked Society (WINS) Challenges, a series of National Science Foundation-sponsored Challenges which aim to support innovation in community wireless networks.</p>
