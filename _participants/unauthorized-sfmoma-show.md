@@ -4,7 +4,7 @@ title: Unauthorized SFMOMA Show
 ---
 <h3>Unauthorized SFMOMA Show</h3>
 <img src="unauth_sfmoma.jpg" />
-<p><a href="https://github.com/8manos/sfm" target="_blank">Website</a> | <a href="https://twitter.com/unsfmomashow" target="_blank">Twitter</a></p>
+<p><a href="https://sfmoma.show/" target="_blank">Website</a> | <a href="https://twitter.com/unsfmomashow" target="_blank">Twitter</a></p>
 <p><a href="http://montenegrojaramillo.info/" target="_blank">Ana María Montenegro Jaramillo</a> from Colombia, <a href="http://lassescherffig.de/" target="_blank">Lasse Scherffig</a> from Germany, and <a href="http://www.enardediosrodriguez.com/" target="_blank">Enar de Dios Rodríguez</a> from Spain are three artists currently based in the Bay Area who are interested in exhibition making, online curating and institutional critique considering how Internet has changed the way art is seen, experienced and valued. Unauthorized SFMOMA Show is their first collaboration.</p>
 
 <hr />
