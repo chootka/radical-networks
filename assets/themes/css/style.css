@@ -467,6 +467,18 @@ a.tickets {
     font-weight: 500;
 }
 
+.supporters {
+  padding-bottom: 30px;
+}
+
+.supporters ul {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: top;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
 /* MISC */
 .clearfix:after {
   display: block;
@@ -639,5 +651,11 @@ a.tickets {
   }
   .content .sponsor-logos td {
       padding: 12px 24px 12px 0;
+  }
+  .supporters ul {
+      padding-top: 0;
+  }
+  .supporters ul:first-child {
+    padding-top: 10px;
   }
 }
