@@ -368,6 +368,7 @@ tr:nth-of-type(odd) {
 }
 .sponsor-logos td {
   padding-left: 0;
+  padding-right: 40px;
   vertical-align: middle;
 }
 tr.light {
@@ -469,14 +470,15 @@ a.tickets {
 
 .supporters {
   padding-bottom: 30px;
+  padding-top: 20px;
 }
 
 .supporters ul {
     display: inline-block;
     margin-bottom: 0;
     vertical-align: top;
-    padding-top: 20px;
-    padding-right: 19px;
+    padding-right: 25px;
+    max-width: 33%;
 }
 
 /* MISC */
@@ -497,6 +499,10 @@ a.tickets {
 
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {
+  .supporters ul {
+    display: block;
+    max-width: 100%;
+  }
 }
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
@@ -530,7 +536,7 @@ a.tickets {
     display: block;
   }
   .content .sponsor-logos img {
-    max-width: 100px; 
+    max-width: 150px; 
   }
   .content .sponsor-logos td {
       padding: 12px 24px 12px 0;
@@ -582,10 +588,10 @@ a.tickets {
     display: block;
   }
   .content .sponsor-logos img {
-    max-width: 100px; 
+    max-width: 150px; 
   }
   .content .sponsor-logos td {
-      padding: 12px 24px 12px 0;
+    padding: 12px 24px 12px 0;
   }
 }
 
@@ -619,10 +625,8 @@ a.tickets {
     padding: 15px 0;
   }
   .content .sponsor-logos img {
-    max-width: 100px; 
-  }
-  .content .sponsor-logos td {
-      padding: 12px 24px 12px 0;
+    max-width: 120px; 
+    padding-right: 30px;
   }
 }
 
@@ -647,15 +651,10 @@ a.tickets {
     font-size: .5em;
   }
   .content .sponsor-logos img {
-    max-width: 100px; 
+    padding: 30px 30px 10px 0;
+    max-width: 50%;
   }
   .content .sponsor-logos td {
-      padding: 12px 24px 12px 0;
-  }
-  .supporters ul {
-      padding-top: 0;
-  }
-  .supporters ul:first-child {
-    padding-top: 10px;
+    display: table-row;
   }
 }
