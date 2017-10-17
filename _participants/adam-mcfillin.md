@@ -3,7 +3,7 @@ layout: page
 title: Adam McFillin
 ---
 <h3>Adam McFillin</h3>
-<img src="adnets.jpg" />
+<img src="biopic_bw_256.png" />
 <p><a href="http://adammcfillin.net" target="_blank">Website</a> | <a href="https://twitter.com/ctrlyrown/" target="_blank">Twitter</a></p>
 <p>Adam McFillin is an artist engaged in producing performance and installation works that investigate protocol, power and structure in communications networks. His works are often heavily sound-based and have focused on exposing the materiality of signal (Music for AT Musicians) and the abstraction of protocol (D:I:V:I:S:O:N, Loopback).</p>
 
