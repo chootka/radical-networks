@@ -482,6 +482,15 @@ a.tickets {
     max-width: 33%;
 }
 
+.shop .item {
+  padding: 40px;
+  text-align: center;
+}
+
+.item > img {
+  padding-bottom: 25px;
+}
+
 /* MISC */
 .clearfix:after {
   display: block;
@@ -599,6 +608,12 @@ a.tickets {
   }
   .content .sponsor-logos td {
     padding: 12px 24px 12px 0;
+  }
+  .shop .item {
+    padding: 0;
+  }
+  .item > img {
+    padding-bottom: 30px;
   }
 }
 
