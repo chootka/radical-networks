@@ -2,6 +2,12 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@font-face {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  src: url(../fonts/BebasNeue-Regular.ttf) format("truetype");
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -105,6 +111,15 @@ header .social {
     max-width: 500px;
 }
 
+.spektrum {
+  font-size: 2.3rem;
+  font-family: "Bebas Neue", sans-serif;
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: #fff;
+  letter-spacing: 0.8px;
+}
+
 .navbar {
    position: static; 
    min-height: 0; 
@@ -186,12 +201,17 @@ ul.nav li {
 .sidebar div {
   padding-top: 28px;
 }
-.sidebar div:nth-child(1) img {
-  margin-top: 14px;
+.sidebar div:first-child {
+  padding-top: 0;
 }
 
-.sidebar img {
-  margin-top: 7px;
+/*.sidebar div:nth-child(1) img {
+  margin-top: 14px;
+}*/
+
+.sidebar .host img {
+  vertical-align: middle;
+  margin: 0 7px 0 0;
 }
 
 #footer {
@@ -330,8 +350,9 @@ h6 {
 }
 
 p {
-  margin-bottom: 20px;
   font-weight: 300;
+  letter-spacing: .015em;
+  margin-bottom: 20px;
 }
 
 a {
@@ -462,7 +483,7 @@ a .title {
   padding-bottom: 2px;
 }
 
-a.tickets {
+.tickets {
     color: #2aeee5;
     font-size: 20px;
     line-height: 23px;
@@ -491,6 +512,14 @@ a.tickets {
   padding-bottom: 25px;
 }
 
+.item tr {
+  background: none;
+}
+
+.item input {
+  padding: 10px 0;
+}
+
 /* MISC */
 .clearfix:after {
   display: block;
@@ -517,6 +546,12 @@ a.tickets {
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 959px) { 
+  .navbar-collapse {
+    float: left;
+  }
+  ul.nav li:first-child {
+    padding-left: 0;
+  }
   .content img {
     width: 100%;
     max-width: 768px;
@@ -529,7 +564,7 @@ a.tickets {
     padding: 30px 0;
   }
   .sidebar div {
-    display: inline-block;
+    display: block;
     vertical-align: top;
     padding-right: 50px;
   }
@@ -561,6 +596,9 @@ a.tickets {
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
+  hr {
+    margin-bottom: 50px;
+  }
   header {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -614,6 +652,9 @@ a.tickets {
   }
   .item > img {
     padding-bottom: 30px;
+  }
+  .item input {
+    padding: 15px 0;
   }
 }
 
