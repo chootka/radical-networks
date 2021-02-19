@@ -1,6 +1,5 @@
 # radical-networks
 
-October 19-22, 2017 
-Brooklyn, NY
+For years 2018 onward, go to https://git.radicalnetworks.org/chootka/radical-networks
 
-Details at http://radicalnetworks.org/
+More info at http://radicalnetworks.org/
